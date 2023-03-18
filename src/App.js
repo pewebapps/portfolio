@@ -1,8 +1,8 @@
-import bootstrap from 'bootstrap'
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
-    <div>
+    <div className='container'>
       Piers
     </div>
   );
