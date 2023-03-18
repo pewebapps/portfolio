@@ -1,20 +1,11 @@
 import React from "react";
 import { NavLink } from 'react-router-dom';
-
-const styles = {
-    navbarStyle: {
-      alignItems: "center"
-    },
-    containerBackground: {
-        backgroundColor: "#4C4B63",
-        padding: "32px"
-    }
-  };
+import './style.css'
 
 function NavBar() {
     return (
-        <div className="container-xxl" style={styles.containerBackground}>
-            <ul className="nav justify-content-center" style={styles.navbarStyle}>
+        <div className="container-xxl">
+            <ul className="nav justify-content-center">
                 <li className="nav-item" >
                     <NavLink
                         to="/"

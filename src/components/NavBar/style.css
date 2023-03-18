@@ -1,0 +1,15 @@
+
+.container-xxl {
+    background-color: #4C4B63;
+    padding: 32px;
+}
+
+.nav-link {
+    color: white;
+    font-weight: 600;
+}
+
+.nav-link.active {
+    color: white;
+    text-decoration: underline;
+}
